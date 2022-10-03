@@ -1,8 +1,11 @@
+# Module to create diagrams from a source
+
 from diagrams import Diagram
 from diagrams.custom import Custom
 
 nodes = []
 
+# Create a tree diagrams to see folder structure as a tree
 def folder_structure_diagram(directories, name, file_name):
     with Diagram(name, show=False, filename=file_name, direction="TB"):
         for index, directorie in enumerate(directories):

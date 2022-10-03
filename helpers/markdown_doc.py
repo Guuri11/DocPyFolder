@@ -1,5 +1,8 @@
+# Module to create a Markdown file from a source
+
 from mdutils import MdUtils
 
+# Create Package.json documentation
 def package_json_md(package_json, file_name, title):
     mdFile = MdUtils(file_name=file_name,title=title)
     for key, value in package_json.items():
