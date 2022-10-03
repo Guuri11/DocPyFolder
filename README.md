@@ -24,7 +24,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd   git clone https://github.com/Guuri11/DocPyFolder
+  cd   DocPyFolder
 
 ```
 
