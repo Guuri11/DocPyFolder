@@ -1,8 +1,11 @@
+# Module to scan every folder and file & create documentation from data extracted
+
 import os
 import json
 
 from helpers.markdown_doc import package_json_md
 
+# Main function, scan every folder and file
 def scan(rootdir):
     directories = []
     rootdir = rootdir.rstrip(os.sep)
